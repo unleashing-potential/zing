@@ -5,6 +5,9 @@ body {
 .text-muted {
   color: #777777;
 }
+.text-white {
+  color: #ffffff
+}
 .text-primary {
   color: #d00117;
 }
