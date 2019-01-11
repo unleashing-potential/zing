@@ -33,14 +33,28 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" type="text/css" href="css/cookieconsent.min.css" />
+    <script src="js/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#d00217"
+          }
+        },
+        "position": "bottom-right"
+    })});
+    </script>
+
 </head>
 
 <body id="page-top" class="index">
 
     <!-- Google Analytics -->
-
-    <script>
-</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
