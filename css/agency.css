@@ -56,6 +56,9 @@ h6 {
 .bg-darkest-gray {
   background-color: #222222;
 }
+li {
+  margin-top: 5px;
+}
 .btn-primary {
   color: white;
   background-color: #d00117;
@@ -650,6 +653,24 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
+
+table, th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+  table-layout: fixed;
+}
+.tabletwenty {
+  width: 20%;
+}
+.tablethirty {
+  width: 30%;
+}
+.tablesixty {
+  width: 60%;
+}
+
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -737,6 +758,11 @@ ul.social-buttons li a:active {
   margin-top: 60px;
   margin-bottom: 15px;
   font-size: 2em;
+}
+.privacy-modal .modal-content h4 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 1em;
 }
 .privacy-modal .modal-content p {
   margin-bottom: 20px;
