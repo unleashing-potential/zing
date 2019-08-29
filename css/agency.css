@@ -694,6 +694,9 @@ table, th, td {
   font-style: italic;
   font-size: 16px;
 }
+.portfolio-modal .modal-content p.left {
+  text-align: left;
+}
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
   margin-top: 0;
