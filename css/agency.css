@@ -842,9 +842,15 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #d00117;
 }
-.top-buffer {
+.top-buffer10 {
   margin-top:10px;
+}
+.top-buffer30 {
+  margin-top:30px;
 }
 .img-partnergrid {
   max-width: 60%;
+}
+.img-alumni {
+  max-width: 50%;
 }
