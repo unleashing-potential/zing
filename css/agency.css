@@ -842,3 +842,9 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #d00117;
 }
+.top-buffer {
+  margin-top:10px;
+}
+.img-partnergrid {
+  max-width: 60%;
+}
