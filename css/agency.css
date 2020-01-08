@@ -842,15 +842,20 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #d00117;
 }
-.top-buffer10 {
-  margin-top:10px;
-}
-.top-buffer30 {
-  margin-top:30px;
-}
 .img-partnergrid {
   max-width: 60%;
+  margin-top: 15px;
 }
 .img-alumni {
   max-width: 50%;
+}
+.minheight-portfolio {
+  min-height: 400px;
+}
+.alumni-item {
+  height: 100px;
+  margin-bottom: 50px;
+}
+.hr {
+  margin-top: 20px;
 }
