@@ -903,6 +903,33 @@ Unleashing Potential, Yoti, The Berkeley Partnership, Impetus PEF, ACF, London F
             <div class="row">
                 <div class="col-lg-12">
                     <form name="sentMessage" id="contactForm" novalidate>
+
+                        <p class="eligibilty">To confirm your elibility for support, please check that the following statements apply to your organisation:</p>
+                        <div>
+                            <div class="form-group">
+                                <div class="eligibility-item">
+                                    <input type="checkbox" class="form-group" id="eligibility-earlystage" required data-validation-required-message="Please read the statement and check this box to agree." />
+                                    <label for="eligibility-earlystage" class="checkbox">We are an early stage non-profit.</label>
+                                    <p class="help-block text-danger text-danger-eligibility"></p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="eligibility-item">
+                                    <input type="checkbox" class="form-group" id="eligibility-UK" required data-validation-required-message="Please read the statement and check this box to agree." />
+                                    <label for="eligibility-UK" class="checkbox">Our work is focused on the UK.</label>
+                                    <p class="help-block text-danger text-danger-eligibility"></p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="eligibility-item">
+                                    <input type="checkbox" class="form-group" id="eligibility-notlocal" required data-validation-required-message="Please read the statement and check this box to agree." />
+                                    <label for="eligibility-notlocal" class="checkbox">Our work is not focussed solely at a local/community level.</label>
+                                    <p class="help-block text-danger text-danger-eligibility"></p>
+                                </div>
+                            </div>
+                        </div>
+
+
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -924,6 +951,7 @@ Unleashing Potential, Yoti, The Berkeley Partnership, Impetus PEF, ACF, London F
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
+
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
