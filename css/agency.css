@@ -47,6 +47,9 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+h3.privacy {
+  margin-top: 60px;
+}
 .img-centered {
   margin: 0 auto;
 }
